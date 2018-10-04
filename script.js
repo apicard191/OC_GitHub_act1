@@ -1,1 +1,3 @@
-document.getElementById("title").innerHTML = "Hello World";
+var title = "Hello World!";
+document.getElementById("title").innerHTML = title;
+document.title = title;
